@@ -1,5 +1,32 @@
 # Disaster Response Pipeline Project
 
+### Project Components 
+
+1. ETL Pipeline
+The Python script, process_data.py:
+
+    - Loads the messages and categories datasets
+    - Merges the two datasets
+    - Cleans the data
+    - Stores it in a SQLite database
+
+2. ML Pipeline
+The Python script, train_classifier.py:
+
+    - Loads data from the SQLite database
+    - Splits the dataset into training and test sets
+    - Builds a text processing and machine learning pipeline
+    - Trains and tunes a model using GridSearchCV
+    - Outputs results on the test set
+    - Exports the final model as a pickle file
+
+3. Flask Web App
+
+### Requirements
+Please check the requirements.txt for complete information about working environment.
+
+Please use `pip install -r requirements.txt` to run it
+
 ### Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
 
