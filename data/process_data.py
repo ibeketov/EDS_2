@@ -25,7 +25,7 @@ def clean_data(df):
     """Cleans the dataset
     1. Split categories into separate category columns
     2. Convert category values to just numbers 0 or 1
-    3. 
+    3. Clearn duplicates
     Arguments:
         df {DataFrame} -- dateset
     
