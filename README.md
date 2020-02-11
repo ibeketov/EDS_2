@@ -34,7 +34,7 @@ There are three main foleders:
     - DisasterResponse.db: output of the ETL pipeline, i.e. SQLite database containing messages and categories data
 2. models
     - train_classifier.py: machine learning pipeline scripts to train and export a classifier
-    - classifier.pkl: output of the machine learning pipeline, i.e. a trained classifer
+    - DecisionTreeClassifier.pkl: output of the machine learning pipeline, i.e. a trained classifer
 3. app
     - run.py: Flask file to run the web application
     - templates contains html file for the web applicatin
